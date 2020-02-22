@@ -15,7 +15,6 @@ class ViewController: UITableViewController {
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		
 		self.title = "Book Club Members"
 		
 		if let savedNames = defaults.stringArray(forKey: "names") {
